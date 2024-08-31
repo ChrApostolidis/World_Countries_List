@@ -1,0 +1,168 @@
+*  {
+    margin: 0;
+}
+.mainHeader {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 150px;
+}
+
+.secondHeader {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.firstSectionOfPage {
+    background-image: url(/images/globe-2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hiddenText {
+    display: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+#hiddenText.visible {
+    display: block;
+}
+
+.firstSearchOption {
+    background-color: #895be6;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+
+.firstSearchOption.active {
+    background-color: #581cb8;
+}
+
+.secondSearchOption {
+    background-color: #895be6;
+    font-size: 12px;
+    text-transform: uppercase;  
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: white;
+}
+
+.secondSearchOption.active {
+    background-color: #581cb8;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#sortButton {
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;     
+    flex-direction: row; 
+    align-items: center;    
+    justify-content: center;
+    border: none;
+    background-color: #895be6;
+    color: white;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.letters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px; 
+}
+
+.letter-a, .letter-z {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#arrow {
+    font-size: 16px;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    padding-bottom: 150px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.searchButton {
+    all: unset; 
+    cursor: pointer;
+    width: 44px;
+    height: 40px;  
+    border-radius: 50%; 
+}
+
+#sortButton.active {
+    background-color: #581cb8;
+}
+  
+svg {
+    width: 28px; 
+    height: 28px;
+    fill: white;
+}
+
+.secondSectionOfPage {
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.cards{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 10rem;
+    width: 10rem;
+    background-image: url(/images/map_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 400;
+}

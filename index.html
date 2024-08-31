@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>World Countries List</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon_Earth.png">
+</head>
+
+<body>
+	<div class = 'firstSectionOfPage'>
+		<h1 class = "mainHeader">World Countries List</h1>
+		<h2 class = "secondHeader">Total Number of Countries: 193</h2>
+		<div id="hiddenText">Countries starting with <span id="searchTerm"></span> are <span id="count"></span>.</div>
+		<div class = 'buttons'>
+			<button class = 'firstSearchOption'>Starting Word</button>
+			<button class = 'secondSearchOption'>Search with any word</button>
+			<button id = 'sortButton'>
+				<span class = 'arrow'>↓</span>
+				<div class = 'letters'>
+					<span class ='letter-a'>A</span>
+					<span class ='letter-z'>Z</span>
+				</div>
+			</button>
+		</div>	
+			<div class="searchContainer">
+				  <input class = 'searchBar' type="text" placeholder="Search Country..." name="search">
+				  	<button class="searchButton">
+						<svg viewBox="0 0 1024 1024">
+						<path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+					</button>
+			</div>
+	</div>
+
+	<div class = 'secondSectionOfPage'></div>
+
+	<script src = "./data/countries.js"></script>
+	<script src = "./scripts/main.js"></script>
+
+</body>
+
+</html>	
