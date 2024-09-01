@@ -20,7 +20,7 @@
 }
 
 .firstSectionOfPage {
-    background-image: url(/images/globe-2.jpg);
+    background-image: url(../images/globe-2.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -155,7 +155,7 @@ svg {
     border-radius: 5px;
     height: 10rem;
     width: 10rem;
-    background-image: url(/images/map_image.jpg);
+    background-image: url(../images/map_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
